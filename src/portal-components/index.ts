@@ -1,6 +1,7 @@
 import StatefulButtonControlWrapper from './StatefulButtonControlWrapper'
 import RouteButtonControlWrapper from './RouteButtonControlWrapper'
 import StandaloneQueryWrapper from './StandaloneQueryWrapper'
+import DataDictionary from './data-dictionary'
 import DetailsPage from './DetailsPage'
 import ConsortiaGoals from './csbc-home-page/ConsortiaGoals'
 import HomePageCardContainer from './csbc-home-page/HomePageCardContainer'
@@ -17,6 +18,7 @@ const PortalComponents = {
   StatefulButtonControlWrapper,
   RouteButtonControlWrapper,
   StandaloneQueryWrapper,
+  DataDictionary,
   DetailsPage,
   ConsortiaGoals,
   HomePageCardContainer,

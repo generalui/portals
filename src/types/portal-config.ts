@@ -19,6 +19,7 @@ import { RouteButtonControlWrapperProps } from '../portal-components/RouteButton
 import { HomePageCardContainerProps } from '../portal-components/csbc-home-page/HomePageCardContainer'
 import { AboutPortalProps } from '../portal-components/csbc-home-page/AboutPortal'
 import { EcosystemProps } from '../portal-components/csbc-home-page/Ecosystem'
+import { DataDictionaryProps} from '../portal-components/data-dictionary'
 import { DetailsPageProps } from './portal-util-types'
 import { StandaloneQueryWrapperProps } from '../portal-components/StandaloneQueryWrapper'
 import { StatefulButtonControlWrapperProps } from 'portal-components/StatefulButtonControlWrapper'
@@ -103,6 +104,11 @@ type StatefulButtonControl = {
 type RouteButtonControl = {
   name: 'RouteButtonControlWrapper'
   props: RouteButtonControlWrapperProps
+}
+
+type DataDictionary = {
+  name: 'DataDictionary'
+  props: DataDictionaryProps
 }
 
 type DetailsPage = {
@@ -233,6 +239,7 @@ export type SynapseConfig = (
   | QueryWrapperMenu
   | UserCard
   | Markdown
+  | DataDictionary
   | DetailsPage
   | SynapseFormWrapper
   | SynapseFormSubmissionsGrid

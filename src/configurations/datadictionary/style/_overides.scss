@@ -1,0 +1,62 @@
+$primary-text-color: #009249;
+$primary-action-color: #009249;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.nav-logo button {
+  font-size: 1.8rem;
+}
+
+.main {
+  min-height: calc(100vh - 135px);
+}
+
+#banner,
+.nav-button,
+.top-nav-button,
+a.top-nav-button,
+.portal-nav-menu .dropdown-item,
+.header-text p {
+  font-size: 1.6rem;
+}
+
+#home-link,
+#portal-title-footer {
+  font-size: 2.5rem;
+}
+
+#explore-portal,
+.title {
+  font-size: 2.1rem;
+}
+
+.cookiesBanner,
+.developed-by-sage {
+  font-size: 1.5rem;
+}
+
+#signin-button {
+  min-height: 39px;
+  height: auto;
+}
+
+#header,
+#footer {
+  background-color: $primary-text-color;
+  background-blend-mode: multiply;
+}
+
+#footer {
+  min-height: 60px;
+  height: auto;
+}
+
+#powered-by-anchor {
+  padding-bottom: 10px;
+}
