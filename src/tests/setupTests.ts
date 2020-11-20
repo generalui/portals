@@ -2,6 +2,7 @@ import 'isomorphic-fetch' // polyfill for fetch
 import 'raf/polyfill' // polyfill for requestAnimationFrame
 import { configure } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
+import 'jest-canvas-mock'
 
 declare var global: any
 global.markdownit = require('markdown-it')
