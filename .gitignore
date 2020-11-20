@@ -1,7 +1,45 @@
-node_modules/
-build/
-src/config/
-*.css
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules/
+
+# testing
+
+# misc
 .DS_Store
-.vscode/
-.idea/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# generated
+/build/
+/.cache/
+/.coverage/
+/.dev/
+/.dist/
+/coverage/
+/dist/
+/dist-dev/
+/public/
+/storybook-static/
+npm-debug.log*
+*.css
+/src/config/
+
+# IDE Stuff
+/.code-workspace/
+/*.code-workspace
+!/default.code-workspace
+/.idea/
+/.next/
+/.project/
+/.settings/
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/ts.eclipse.ide.core.prefs
+.vscode/*
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
